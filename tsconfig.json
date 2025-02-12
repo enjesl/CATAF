@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
+    "types": ["node"]  // Add this line to include Node.js types
+  },
+  "include": [
+    "Runtime/Helpers/**/*.ts",
+    "Libraries/**/*.ts",
+    "TestSuites/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

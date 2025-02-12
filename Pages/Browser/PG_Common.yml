@@ -1,0 +1,17 @@
+# PG_Common.yml - Store locators
+link_opennav: "//img[@onclick='openNav()' and @alt='home']/parent::a"
+link_anynavigationtext: "//a[normalize-space()='{navigationLinkName}']"
+link_logouttogal: "//a[@data-toggle='dropdown']"
+link_logout: "//a[text()='Logout']"
+dd_span: "//span[normalize-space()='{parameter}']"
+list_matoptions: "div[role='listbox'].mat-mdc-autocomplete-panel.mat-mdc-autocomplete-visible"
+spiner_loading: "//p[normalize-space()='Loading...']"
+button_cancelnav: //button[normalize-space()='Cancel']
+
+button_skiptour: //button[@id='segment_sec_btn_1']
+iframe_popupskip: //iframe[@id='wfx-frame-popup']
+
+button_savetopnav: (//button[normalize-space(text())='Save'])[1]
+button_edittopnav: (//button[normalize-space(text())='Edit'])[1]
+button_edittopnavdisabled: (//button[normalize-space(text())='Edit' and @disabled])[1]
+

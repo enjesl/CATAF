@@ -1,0 +1,9 @@
+# PG_Welcome.yml - Store locators for search functionality
+header_welcome: "(//img[@class='welcomeimg']/parent::h1)[1]"
+header_country: "(//ul[@class='nav navbar-nav']//h3)[1]"
+select_hospital: "//select[@formcontrolname='hospital']" 
+select_department: "//select[@formcontrolname='department']"
+input_iagreecheckbox_checked: "//input[@formcontrolname='tAndC' and @class='ng-untouched ng-pristine ng-valid']"
+input_iagreecheckbox: "//input[@formcontrolname='tAndC']"
+button_submit: "//button/a[normalize-space()='Submit']"
+header_hospital: "(//ul[@class='nav navbar-nav']//h3)[2]"

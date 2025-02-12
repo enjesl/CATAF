@@ -1,0 +1,6 @@
+# PG_Login.yml - Store locators
+label_country: "//label[normalize-space(text())='Country']"
+input_countrydropdown: "//app-common-dropdown//input[@formcontrolname='dropdownBtn']"
+select_dropdownvalue: "//app-common-dropdown//ul[@class='dropdown-list ng-star-inserted']/li[normalize-space()='{countryName}']"
+button_login: "//a[text()='Login']"
+button_loginhere: "//span/span[normalize-space()='Login Here']"

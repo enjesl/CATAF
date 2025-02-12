@@ -1,0 +1,172 @@
+# PG_RequestForAdmission.yml - Store locators
+
+input_mrn: "(//input[@formcontrolname='mrn'])[1]"
+input_patientname: "//input[@formcontrolname='patientName']"
+input_rfaid: "(//input[@formcontrolname='rfaId'])[1]"
+input_nicno: "//input[@formcontrolname='icNo']"
+input_oldicorpassport: "//input[@formcontrolname='oldICPassport']"
+input_gender: "//input[@formcontrolname='gender']"
+input_dob: "//input[@formcontrolname='dateOfBirth']"
+input_age: "//input[@formcontrolname='age']"
+button_rfaidadvancedsearch: "//label[normalize-space(text())='RFA ID']/span[normalize-space(text())='Advance Search']"
+
+# Part 1 Doctort
+
+radio_electiveadmission: "//label[normalize-space()='Elective Admission*']/input[@formcontrolname='isElectiveAdmission']"
+radio_nonelectiveadmission: "//label[normalize-space()='Non Elective Admission*']/input[@formcontrolname='isElectiveAdmission']"
+check_isdaycare: "//input[@formcontrolname='isDayCare']"
+check_isnewborn: "//input[@formcontrolname='isNewBorn']"
+input_scheduleadmissiondate: "//input[@formcontrolname='scheduledDateTime']"
+input_estimatedlegnthofstay: "//input[@formcontrolname='estimatedLengthofStay']"
+input_estimatedcost: "//input[@formcontrolname='caseDepositRangeCode']"
+input_estimatedcostrange: "//input[@formcontrolname='estimatedCost']"
+radio_iscashpatient: "//label[normalize-space()='Cash Patient*']/input[@formcontrolname='isCashPatient']"
+radio_iscoporatepatient: "//label[normalize-space()='Corporate/Insurance Patient*']/input[@formcontrolname='isCashPatient']"
+input_deposittobecollected: "//input[@formcontrolname='amountToCollect']"
+select_operationrequired: "//select[@formcontrolname='isOperationRequired']"
+input_operationdate: "//input[@formcontrolname='operationDate']"
+input_admitdiagnosis: "//input[@formcontrolname='admittingDiagnosis']"
+input_secondarydiagnosis: "//input[@formcontrolname='secondaryDiagnosis']"
+input_admittingdoctor: "//input[@formcontrolname='admittingDoctorCode']"
+input_acknowledgedate: "//input[@formcontrolname='doctorAcknowledgedDateTime']"
+button_doctoracknowledge: "//button/span[@title='Doctor Acknowledged']"
+check_ismedicalofficer: "//input[@formcontrolname='isMedicalOfficer']"
+select_specialistdoctorcode: "//select[@formcontrolname='specialistDoctorCode']"
+input_uploadfile: "//input[@formcontrolname='uploadFile']"
+button_clear: "(//button[normalize-space()='Clear'])[2]"
+button_edit: "(//button[normalize-space()='Edit'])[2]"
+
+button_editdisabled: (//button[normalize-space()='Edit' and @disabled])[2]
+
+card_part1doctor: "//summary[normalize-space()='Part 1(Doctor)']/parent::details[not(@open)]"
+card_part2patient: "//summary[normalize-space()='Part 2(Patient)']/parent::details[not(@open)]"
+
+textarea_othercasesremark: "//textarea[@name='otherCaseRemarks']"
+button_saveothercases: "//button[text()='Save']"
+
+# Part 1 Doctort disabled
+
+radio_electiveadmissiondisabled: "//label[normalize-space()='Elective Admission*']/input[@formcontrolname='isElectiveAdmission' and @disabled]"
+radio_nonelectiveadmissiondisabled: "//label[normalize-space()='Non Elective Admission*']/input[@formcontrolname='isElectiveAdmission' and @disabled]"
+check_isdaycaredisabled: "//input[@formcontrolname='isDayCare' and @disabled]"
+check_isnewborndisabled: "//input[@formcontrolname='isNewBorn' and @disabled]"
+input_scheduleadmissiondatedisabled: "//input[@formcontrolname='scheduledDateTime' and @disabled]"
+input_estimatedlegnthofstaydisabled: "//input[@formcontrolname='estimatedLengthofStay' and @disabled]"
+input_estimatedcostdisabled: "//input[@formcontrolname='caseDepositRangeCode' and @disabled]"
+input_estimatedcostrangedisabled: "//input[@formcontrolname='estimatedCost' and @disabled]"
+radio_iscashpatientdisabled: "//label[normalize-space()='Cash Patient*']/input[@formcontrolname='isCashPatient' and @disabled]"
+radio_iscoporatepatientdisabled: "//label[normalize-space()='Corporate/Insurance Patient*']/input[@formcontrolname='isCashPatient' and @disabled]"
+input_deposittobecollecteddisabled: "//input[@formcontrolname='amountToCollect' and @disabled]"
+select_operationrequireddisabled: "//select[@formcontrolname='isOperationRequired' and @disabled]"
+input_operationdatedisabled: "//input[@formcontrolname='operationDate' and @disabled]"
+input_admitdiagnosisdisabled: "//input[@formcontrolname='admittingDiagnosis' and @disabled]"
+input_secondarydiagnosisdisabled: "//input[@formcontrolname='secondaryDiagnosis' and @disabled]"
+input_admittingdoctordisabled: "//input[@formcontrolname='admittingDoctorCode' and @disabled]"
+input_acknowledgedatedisabled: "//input[@formcontrolname='doctorAcknowledgedDateTime' and @disabled]"
+button_doctoracknowledgedisabled: "//button[@disabled]/span[@title='Doctor Acknowledged']"
+check_ismedicalofficerdisabled: "//input[@formcontrolname='isMedicalOfficer' and @disabled]"
+select_specialistdoctorcodedisabled: "//select[@formcontrolname='specialistDoctorCode' and @disabled]"
+input_uploadfiledisabled: "//input[@formcontrolname='uploadFile' and @disabled]"
+
+
+#Part 2(Patient) 
+
+input_ward: "//input[@formcontrolname='wardCode']"
+input_bedtype: "//input[@formcontrolname='bedTypeCode']"
+radio_cashpatient: "(//input[@formcontrolname='isAdmissionCashPatient'])[1]"
+radio_coporatepatient: "(//input[@formcontrolname='isAdmissionCashPatient'])[2]"
+button_insuaranceadvancesearch: "//section[@id='secPart2']//span[normalize-space()='Advance Search']"
+input_debetorcode: "//label[text()='Debtor Code']/parent::div/input"
+input_debetorname: "//label[text()='Debtor Name']/parent::div/input"
+link_coporatesearchresults: "//a[normalize-space()='{parameter}']"
+label_debetorname: //a[normalize-space()='S0008']/ancestor::tr/td[2]
+input_insuarencecode: "//input[@formcontrolname='insuranceCode']"
+select_insuranceterm: "//select[@formcontrolname='insuranceTermCode']"
+option_insuranceterm: //select[@formcontrolname='insuranceTermCode']/option[normalize-space()='{parameter}']
+input_insurancepercentage: "//input[@formcontrolname='insurancePercentage']"
+input_insuranceamount: "//input[@formcontrolname='insuranceAmount']"
+input_depositamount: "//input[@formcontrolname='depositAmount']" 
+input_roomboardlimit: "//input[@formcontrolname='roomBoardLimit']" 
+input_roomentitlement: "//input[@formcontrolname='roomEntitlement']"
+input_specialrequest: "//input[@formcontrolname='specialRequest']"
+input_remark: "//input[@formcontrolname='remarks']"
+
+#Guarantor Information
+
+check_sameaspatientinfo: "//input[@id='asPatientInfo']"
+check_sameasemergencycontactdetails: "//input[@id='asEmergencyDetail']"
+input_guarantorname: "//input[@formcontrolname='guarantorName']"
+input_relationshipcode: "//input[@formcontrolname='relationshipCode']"
+input_guarantoricno: " //input[@formcontrolname='guarantorICNo']"
+input_guarantoroldicno: "//input[@formcontrolname='guarantorOldICNo']"
+input_primerycountrycode: "//input[@formcontrolname='primaryContactCountryCodeNo']"
+input_primerymobileno: "//input[@formcontrolname='primaryContactNo']"
+input_secondarycountrycode: "//input[@formcontrolname='secondaryContactCountryCodeNo']"
+input_secondarymobileno: "//input[@formcontrolname='secondaryContactNo']"
+input_street1: "//input[@formcontrolname='street1']"
+input_street2: "//input[@formcontrolname='street2']"
+input_street3: "//input[@formcontrolname='street3']"
+input_street4: "//input[@formcontrolname='street4']"
+input_country: "//input[@formcontrolname='countryCode']"
+input_state: "//input[@formcontrolname='stateCode']"
+input_city: "//input[@formcontrolname='cityCode']"
+input_postcode: "//input[@formcontrolname='postCode']"
+
+#Hospital Staff Acknowledgement
+
+input_staficno: "//input[@formcontrolname='staffICNo']"
+input_stafpassport: "//input[@formcontrolname='staffOldICNo']"
+input_staffacknowledgedatetime: "//input[@formcontrolname='staffAcknowledgeDateTime']"
+button_staffaxknowledgement: "//span[@title='Staff Acknowledge']/parent::button"
+button_okacknowledge: "(//span/span[normalize-space()='Ok'])[3]"
+button_witnessacknowledge: "//i[@title='Witness Acknowledge']/parent::button"
+input_witnessicno: "//input[@formcontrolname='witnessICNo']"
+input_witnessoldicno: "//input[@formcontrolname='witnessOldICNo']"
+input_witnessacknowledgedatetime: "//input[@formcontrolname='witnessAcknowledgeDateTime']"
+
+# Patient and Guarantor Acknowledgement
+
+input_patientacknowledgedatetime: "//input[@formcontrolname='patientAcknowledgeDateTime']"
+button_patientacknowledge: "//span[@title='Patient Acknowledge']/parent::button"
+canvas_patientsignature: "signature-pad[name='patientSignature'] canvas"
+button_okpatientacknowledge: "(//span/span[normalize-space()='Ok'])[1]"
+input_guarantoracknowledgedatetime: "//input[@formcontrolname='guarantorAcknowledgeDateTime']"
+button_guarantoracknowledge: "//span[@title='Guarantor Acknowledge']/parent::button"
+canvas_guarantorsignature: "signature-pad[name='guarantorSignature'] canvas"
+button_okguarantoracknowledge: "(//span/span[normalize-space()='Ok'])[2]"
+
+button_draft: "//button[text()='Draft']"
+
+
+
+# RFA Search
+
+input_scheduleadmissiondatefrom: "//input[@formcontrolname='scheduledAdmissionFromDate']"
+input_scheduleadmissiondateto: "//input[@formcontrolname='scheduledAdmissionToDate']"
+input_admissionstate: "//input[@formcontrolname='admissionStatus']"
+input_searchname: "//input[@formcontrolname='name']"
+input_searchrfaid: "(//input[@formcontrolname='rfaId'])[2]"
+input_searchmrn : "(//input[@formcontrolname='mrn'])[2]"
+input_searchuid : "//input[@formcontrolname='uid']"
+input_admitingdoctor: "//input[@formcontrolname='admittingDoctor']"
+button_searchrfapopup: "(//button[text()='Search'])[2]"
+
+# RFA search results
+link_rfaidresults: "//a[normalize-space()='{parameter}']"
+
+
+button_disabledsave: "//button[normalize-space()= 'Save' and @disabled]"
+button_save: "(//button[normalize-space()= 'Save' and not(@disabled)])[1]"
+
+spiner_loading: "//p[normalize-space()='Loading...']"
+
+button_clearnav: "(//button[normalize-space()= 'Clear' and not(@disabled)])[1]"
+button_clearpopupok: "//div[normalize-space()='Do you want to clear?']/parent::app-confirm-dialog//span/span[normalize-space()='Ok']"
+
+#RFA Cancel PopUp
+
+label_cancelationconfirmation: //div[normalize-space()= 'Do you want to cancel RFA?']
+button_okcancelationconfirmation: (//span/span[normalize-space()='Ok'])[3]
+label_cancelationheader: //label[normalize-space(text())='Cancel Reason']
+select_cancelationreason: //select[@placeholder='Cancel RFA']
+button_savecancelation: //button/span[normalize-space()='Save']

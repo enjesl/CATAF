@@ -1,0 +1,3 @@
+# PG_Search.yml - Store locators for search functionality
+input_search: "textarea[name='q']"
+search_results: "h3"

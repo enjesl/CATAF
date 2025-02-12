@@ -1,0 +1,537 @@
+{
+  "testCases": [
+    {
+      "testCaseID": "427",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Outpatient without Appointment using Passport - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 0,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "426",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Outpatient without Appointment using MyKAD - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 1,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"      
+    },
+    {
+      "testCaseID": "439",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a Newborn Patient - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 2, 
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "1052",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient -  To register a New Patient as ER - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 3,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "436",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Privilege Outpatient - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 4,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "1098",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register active patient with MLC (medicolegal case) - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 5,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "1507",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Outpatient as Self-Paid - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 1,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "1117",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Outpatient without Appointment - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 0,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+    },
+    {
+      "testCaseID": "1508",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Outpatient as Corporate - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 6,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "438",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Referred Outpatient - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 7,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "1074",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To Add Patient Remarks in Registration screen - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 8,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "424",
+      "testName": "Outpatient Registration New",
+      "testCaseName": "Registration Outpatient - To register a New Outpatient with Appointment - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 9,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationNew"
+      
+    },
+    {
+      "testCaseID": "443",
+      "testName": "Outpatient Registration Existing",
+      "testCaseName": "Registration Outpatient - To register an Existing Patient without Appointment - Iteration {iteration}",
+      "specFile": "outpatientRegistration.spec.ts",
+      "pickIndex": 0,
+      "iterationCount": 1,
+      "execute": true,
+      "dataTable": "dt_outPatientRegistrationExisting"
+      
+    },
+    {
+      "testCaseID": "33",
+      "testCaseName": "RFA - To create Part 1 in RFA- Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "34",
+      "testCaseName": "RFA - To create Part 1 for Patient Type = 'Cash Patient' and Estimated Cost (RM) = 'Other Case'- Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 1
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "35",
+      "testCaseName": "RFA - To create Part 1 for Patient Type = 'Corporate Patient' and Estimated Cost (RM) = 'Other Case'- Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 2
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "36",
+      "testCaseName": "RFA - To create Part 1 for Newborn Patient- Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 2
+        }
+      ]
+    },
+    {
+      "testCaseID": "38",
+      "testCaseName": "RFA - To create Part 1 for Newborn and Day Care patient at the same time- Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 3
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 2
+        }
+      ]
+    },
+    {
+      "testCaseID": "42",
+      "testCaseName": "RFA - To create Part 2 in RFA- Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 4
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "43",
+      "testCaseName": "RFA - To edit Part 1 created by Customer Care/ Doctor user - Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 8
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "241",
+      "testCaseName": "RFA - To cancel an RFA",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 5
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "96",
+      "testCaseName": "RFA - To create Part 2 where Patient Type = 'Cash Patient' in Part 1 - Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 6
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "97",
+      "testCaseName": "RFA - To create Part 2 where Patient Type = 'Corporate Patient' in Part 1 - Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 7
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "236",
+      "testCaseName": "RFA - To create Part 2 which Guarantor has MyKad - Iteration {iteration}",
+      "testName": "Create Request For Admission",
+      "specFile": "CreateRequestForAdmission.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 7
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "1118",
+      "testCaseName": "Registration Inpatient - To admit a New Inpatient- Iteration {iteration}",
+      "testName": "Registration - Inpatients",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 4
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "485",
+      "testCaseName": "Registration Inpatient - To admit a Self-Paid Patient (with Passport) - Iteration {iteration}",
+      "testName": "Registration - Inpatients",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 4
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "486",
+      "testCaseName": "Registration Inpatient - To admit a Corporate Patient (with Passport) - Iteration {iteration}",
+      "testName": "Registration - Inpatients",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 7
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "487",
+      "testCaseName": "Registration Inpatient - To admit a Corporate Patient (with MyKad) - Iteration {iteration}",
+      "testName": "Registration - Inpatients",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 7
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "505",
+      "testCaseName": "Registration Inpatient - To convert Newborn right after MRN is registered - Iteration {iteration}",
+      "testName": "Registration - Inpatients",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 4
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 2
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "490",
+      "testCaseName": "Registration Inpatient - To cancel an Admission- Iteration {iteration}",
+      "testName": "Cancel - Admission",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_outPatientRegistrationNew",
+          "pickIndex": 1
+        }
+      ]
+    },
+    {
+      "testCaseID": "509",
+      "testCaseName": "Registration Inpatient - To register Corporate Inpatient under Third Party Assurance (TPA) - Iteration {iteration}",
+      "testName": "Registration - Inpatients Direct Admision Existing",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 10
+        },
+        {
+          "name": "dt_outPatientRegistrationExisting",
+          "pickIndex": 1
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "1017",
+      "testCaseName": "Registration Inpatient - (MYS) Registration Inpatient - To direct admit an Existing Self-Paid Patient - Iteration {iteration}",
+      "testName": "Registration - Inpatients Existing",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 4
+        },
+        {
+          "name": "dt_outPatientRegistrationExisting",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    },
+    {
+      "testCaseID": "1018",
+      "testCaseName": "Registration Inpatient - (MYS) Registration Inpatient - To direct admit an Existing Corporate Patient - Iteration {iteration}",
+      "testName": "Registration - Inpatients Existing",
+      "specFile": "InPatiensRegistration.spec.ts",
+      "iterationCount": 1,
+      "execute": true,
+      "dataTables": [
+        {
+          "name": "dt_requestForAdmission",
+          "pickIndex": 7
+        },
+        {
+          "name": "dt_outPatientRegistrationExisting",
+          "pickIndex": 0
+        },
+        {
+          "name": "dt_inPatientRegistration",
+          "pickIndex": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# PG_BedEnquiry.yml
+
+link_filter: //h3[normalize-space()='Filter']
+button_wardtype: //label[text()='Ward Type']/parent::div//span[@class='dropdown-btn']
+button_search: (//button[text()='Search'])[1]
+check_wardtype: //div[normalize-space()='{wardType}']
+td_vacant: (//span[normalize-space(text())='Vacant'])[1]
+td_bedtype: (//span[normalize-space(text())='Vacant'])[1]/ancestor::tr/td[4]

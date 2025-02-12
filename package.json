@@ -1,0 +1,25 @@
+{
+  "name": "caaf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.49.0",
+    "js-yaml": "^4.1.0",
+    "moment": "^2.30.1",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/moment": "^2.11.29",
+    "@types/node": "^22.9.3",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.6"
+  }
+}

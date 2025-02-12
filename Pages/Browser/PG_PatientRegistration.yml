@@ -1,0 +1,333 @@
+# PG_PatientRegistration.yml - Store locators
+header_lable_patientregistration  : "(//button[text()='Print'])[1]/ancestor::section//h1"
+label_chargetype: "//select[@formcontrolname='chargeType']/parent::div/label"
+select_chargetype: "//select[@formcontrolname='chargeType']"
+check_outpatient_mlc: "input[formcontrolname='mlc']"
+check_outpatient_walkin: "//input[@formcontrolname='walkIn' and @disabled]"
+check_outpatient_newborn: "//input[@formcontrolname='newBorn' and @disabled]"
+check_outpatient_daycare: "//input[@formcontrolname='dayCare' and @disabled]"
+check_outpatient_er: "input[formcontrolname='er']"
+check_outpatient_guardian: "input[@formcontrolname='guardian']"
+button_requestforadmission: "(//button[normalize-space()='Request For Admission'])[1]"
+button_appointment: "(//button[normalize-space()='Appointment'])[1]"
+button_disabled_cancelregistration': "(//button[normalize-space()='Cancel Registration' and @disabled])[1]"
+input_disabled_uidno : "//input[@formcontrolname='uidNo' and @readonly]"
+input_disabled_visitno : "//input[@formcontrolname='visitNo' and @readonly]"
+input_mrn_basicregistrationinfo: "(//input[@formcontrolname='mrnNo'])[1]"
+input_patientname: "//input[@formcontrolname='patientName']"
+input_disabled_caisno: "//input[@formcontrolname='caisNo' and @readonly]"
+input_disabled_rfano: "//input[@formcontrolname='rfaid' and @readonly]"
+# Patient Info
+input_disabled_passportexpirydate: "//input[@formcontrolname='passPortExpiry' and @disabled]"
+input_disabled_countryofissue : "//input[@formcontrolname='countryOfIssue' and @disabled]"
+input_identificationtype: "(//input[@formcontrolname='identificationType'])[1]"
+dd_identificationtype: "//span[normalize-space()='{identficationType}']"
+input_ic_no: "(//input[@formcontrolname='icNo'])[1]"
+input_disabled_ic_no: "(//input[@formcontrolname='icNo' and @disabled])[1]"
+input_oldic_passport: "(//input[@formcontrolname='oldIcPassport'])[1]"
+input_disabled_oldic_passport: "(//input[@formcontrolname='oldIcPassport' and @disabled])[1]"
+input_disabled_passportexpiery: "//input[@formcontrolname='passPortExpiry' and @disabled]"
+input_passportexpiery: "//input[@formcontrolname='passPortExpiry']"
+input_countryofissue: "//input[@formcontrolname='countryOfIssue']"
+input_disabled_nationality: "//input[@formcontrolname='nationality' and @disabled]"
+input_nationality: "//input[@formcontrolname='nationality']"
+input_disabled_race: "//input[@formcontrolname='race' and @disabled]"
+input_race: "//input[@formcontrolname='race']"
+dd_race: "//span[normalize-space()='{race}']"
+select_disabled_gender: "//select[@formcontrolname='genderSelect' and @disabled]"
+select_gender: "//select[@formcontrolname='genderSelect']"
+input_disabled_dob: "//input[@formcontrolname='dOB' and @disabled]"
+input_dob: "//input[@formcontrolname='dOB']"
+input_disabled_age: "//input[@formcontrolname='age' and @disabled]"
+input_age: "//input[@formcontrolname='age']"
+input_disabled_email: "//input[@formcontrolname='email' and @disabled]"
+input_email: "(//input[@formcontrolname='email'])[1]"
+input_disabled_countrycode: "//input[@formcontrolname='mobileCode' and @disabled]"
+input_countrycode: "//input[@formcontrolname='mobileCode']"
+input_disabled_mobileno: "(//input[@formcontrolname='mobileNo' and @disabled])[1]"
+input_mobileno: "(//input[@formcontrolname='mobileNo'])[1]"
+check_isaddpatientremark: "input[formcontrolname='isAddPatientRemark']"
+textarea_disabled_addpatientremark: "//textarea[@formcontrolname='addPatientRemark' and @disabled]"
+textarea_addpatientremark: "//textarea[@formcontrolname='addPatientRemark']"
+button_takepicture: "(//button[normalize-space()='Take Picture'])[1]"
+button_clearpicture: "(//button[normalize-space()='Clear Picture'])[1]"
+check_ischecked_twinpatient: "//input[@formcontrolname='isTwinpatient']"
+check_ischecked_hidepatientname: "input[formcontrolname='isHidePatientName']"
+select_nonmykadinfo: "//select[@formcontrolname='nonMyKadInfo']"
+
+
+# Additional Patient Details
+
+card_collapseaditionaldetails: "//details[not(@open) and @data-ondemand='additonalInfoValidate']"
+card_expandaditionaldetails: "//details[@open and @data-ondemand='additonalInfoValidate']"
+card_additionaldetails: "//summary[normalize-space()='Additional Patient Details']/parent::details/parent::div"
+input_religion: "//input[@formcontrolname='addReligion']"
+dd_religion: "//span[normalize-space()='{religion}']"
+input_disabled_religion: "//input[@formcontrolname='addReligion' and @disabled]"
+input_maritalstatus: "//input[@formcontrolname='addMarital']"
+dd_maritalstatus: "//span[normalize-space()='{maritalstatus}']"
+input_disabled_maritalstatus: "//input[@formcontrolname='addMarital' and @disabled]"
+input_occupation: "//input[@formcontrolname='addOccupation']"
+input_disabled_occupation: "//input[@formcontrolname='addOccupation' and @disabled]"
+input_addhousenocode: "//input[@formcontrolname='addHouseNocode']"
+input_disabled_addhousenocode: "//input[@formcontrolname='addHouseNocode' and @disabled]"
+dd_countrycode: "//span[normalize-space()='{countryCode}']"
+input_addhouseno: "//input[@formcontrolname='addHouseNo']"
+input_disabled_addhouseno: "//input[@formcontrolname='addHouseNo' and @disabled]"
+input_addofficenocode: "//input[@formcontrolname='addOfficeCode']"
+input_disabled_addofficenocode: "//input[@formcontrolname='addOfficeCode' and @disabled]"
+input_addofficeno: "//input[@formcontrolname='addOfficeNo']"
+input_disabled_addofficeno: "//input[@formcontrolname='addOfficeNo' and @disabled]"
+input_street1: "//input[@formcontrolname='addStr1']"
+input_disable_street1: "//input[@formcontrolname='addStr1' and @disabled]"
+input_street2: "//input[@formcontrolname='addStr2']"
+input_disable_street2: "//input[@formcontrolname='addStr2' and @disabled]"
+input_street3: "//input[@formcontrolname='addStr3']"
+input_disable_street3: "//input[@formcontrolname='addStr3' and @disabled]"
+input_street4: "//input[@formcontrolname='addStr4']"
+input_disable_street4: "//input[@formcontrolname='addStr4' and @disabled]"
+input_country: "//input[@formcontrolname='addCountry']"
+input_disabled_country: "//input[@formcontrolname='addCountry' and @disabled]"
+dd_country: "//span[normalize-space()='{country}']"
+input_states: "//input[@formcontrolname='addState']"
+input_disabled_states: "//input[@formcontrolname='addState' and @disabled]"
+dd_states: "//span[normalize-space()='{states}']"
+input_town: "//input[@formcontrolname='addCity']"
+input_disabled_town: "//input[@formcontrolname='addCity' and @disabled]"
+dd_town: "//span[normalize-space()='{town}']"
+input_additionalpatientdetails_postcode: "(//input[@formcontrolname='postCode'])[1]"
+input_disabled_additionalpatientdetails_postcode: "(//input[@formcontrolname='postCode' and @disabled])[1]"
+
+# Death Details (If Applicable)
+
+check_isPatientdeceased: "input[formcontrolname='isDeceased']"
+input_datetimeofdeath: "//input[@formcontrolname='dateTimeOfDeath']"
+input_causeofdeath: "//input[@formcontrolname='causeOfDeathDetails']"
+dd_causeofdeath: "//span[normalize-space()='{causeofDeath}']"
+check_ischeckedblacklisted: "input[formcontrolname='isBlackListed']"
+input_blacklistreason: "//input[@formcontrolname='reason']"
+
+#Visit / Admission Details 
+card_collapsevisitadmissiondetails: "//details[not(@open) and @data-ondemand='visitAdmValidate']"
+card_expandvisitadmissiondetails: "//details[@open and @data-ondemand='visitAdmValidate']"
+card_admissiondetails: "//summary[normalize-space()='Visit / Admission Details']/parent::details/parent::div"
+select_patienttype: "//select[@formcontrolname='admPatientType']"
+select_privatcategory: "//select[@formcontrolname='privateCategory']"
+input_disabled_displaycorporatename: "//input[@formcontrolname='displayCorporatename']"
+link_viewcoporateinfo: "//a[normalize-space()='View Corporate Info']"
+button_addnewdoctor: "//button[normalize-space()='Add New Doctor']"
+
+check_isdoctorchecked: "(//input[@name='prDr'])[1]"
+label_doctoravailable: "//label[normalize-space()='Doctor is available']"
+button_doctorunavailableok: "//span/span[normalize-space()='Ok']"
+input_doctorspecialist: "(//input[@name='prDr']/ancestor::tr//input)[2]"
+input_doctor: "(//input[@name='prDr']/ancestor::tr//input)[3]"
+label_estimatedtime: "//label[normalize-space()='{estimatedtime}']"
+input_visittype: "//input[@formcontrolname='visitType']"
+select_previleage: "//select[@formcontrolname='admPrivileage']"
+check_isaddremarkchecked: "input[formcontrolname='isaddRemark']"
+textarea_addremark: "//textarea[@formcontrolname='addRemark']"
+textarea_disabled_addremark: "//textarea[@formcontrolname='addRemark' and @disabled]"
+input_referbyexternaldoctor: "//input[@formcontrolname='refByExternal']"
+link_referdbyexternaldoctor: "//label[normalize-space()='Referred by External Clinic']"
+
+# Clinic Info
+
+input_cliniccode: "//input[@formcontrolname='clinicCode']"
+input_clinicname: "//input[@formcontrolname='clinicName']"
+input_clinicStreet: "//label[normalize-space()='Street']/..//input[@formcontrolname='street1']"
+input_cliniccountry: "//input[@formcontrolname='countryCode']"
+input_clinicstatecode: "//input[@formcontrolname='stateCode']"
+input_cliniccitycode: "//input[@formcontrolname='cityCode']"
+input_clinicpostcode: "(//input[@formcontrolname='postCode'])[4]"
+input_clinicofficeno: "(//input[@formcontrolname='officeNo'])[3]"
+input_referby: "//input[@formcontrolname='referredBy']"
+input_referto: "//input[@formcontrolname='referredTo']"
+button_clinicsave: "//label[normalize-space()='Referred To*']/ancestor::form//button[normalize-space()='Save']"
+
+# Emergency Contact Details
+
+card_collapseemergencycontact: "//details[not(@open) and @data-ondemand='emeContactValidate']"
+card_expandemergencycontact: "//details[@open and @data-ondemand='emeContactValidate']"
+card_emergencycontactdetails: "//summary[normalize-space()='Emergency Contact Details']/parent::details/parent::div"
+input_contactpersonname: "//input[@formcontrolname='contactPerson']"
+select_gender_emergencycontactdetails: "//summary[normalize-space()='Emergency Contact Details']/..//select[@formcontrolname='gender']"
+input_relationtype: "//summary[normalize-space()='Emergency Contact Details']/..//input[@formcontrolname='relationType']"
+dd_relationtype: "//span[normalize-space()='{relationType}']"
+input_icno_relationtype: "(//input[@formcontrolname='icNo'])[2]"
+input_pasportoroldic_relationtype: "(//input[@formcontrolname='oldIcPassport'])[2]"
+check_sameaspatientaddress: "//input[@formcontrolname='sameAsPatient']"
+input_street1_relationtype: "//input[@formcontrolname='emStr1']"
+input_street2_relationtype: "//input[@formcontrolname='emStr2']"
+input_street3_relationtype: "//input[@formcontrolname='emStr3']"
+input_street4_relationtype: "//input[@formcontrolname='emStr4']"
+input_country_relationtype: "//input[@formcontrolname='emCountry']"
+input_state_relationtype: "//input[@formcontrolname='emState']"
+input_city_relationtype: "//input[@formcontrolname='emCity']"
+input_postcode_relationtype: "(//input[@formcontrolname='postCode'])[2]"
+input_countrycodemobile_relationtype: "//input[@formcontrolname='emeMobileCode']"
+input_mobileno_relationtype : "(//input[@formcontrolname='mobileNo'])[2]"
+input_officecountrycode_relationtype : "//input[@formcontrolname='emeOfficeCode']"
+input_officeno_relationtype: "(//input[@formcontrolname='officeNo'])[1]"
+input_housecountrycode_relationtype: "//input[@formcontrolname='emeHouseCode']"
+input_houseno_relationtype: "(//input[@formcontrolname='houseNo'])[1]"
+
+# Add New Contact
+
+card_collapseaddnewcontact: "//details[not(@open) and @data-ondemand='addNewContactValidate']"
+card_expandaddnewcontact: "//details[@open and @data-ondemand='addNewContactValidate']"
+card_addnewcontact: "//summary[normalize-space()='Add New Contact']/parent::details/parent::div"
+input_mrnno_addnewcontact: "(//input[@formcontrolname='mrnNo'])[2]"
+input_name_addnewcontact: "(//input[@formcontrolname='name'])[1]"
+select_gender_addnewcontact: "(//select[@formcontrolname='gender'])[2]"
+input_relationship_addnewcontact : "(//input[@formcontrolname='relationType'])[2]"
+input_icno_addnewcontact : "(//input[@formcontrolname='icNo'])[3]"
+input_oldicorpassport_addnewcontact : "(//input[@formcontrolname='oldIcPassport'])[3]"
+input_street1_addnewcontact: "(//input[@formcontrolname='street1'])[1]"
+input_street2_addnewcontact: "(//input[@formcontrolname='street2'])[1]"
+input_street3_addnewcontact: "(//input[@formcontrolname='street3'])[1]"
+input_street4_addnewcontact: "(//input[@formcontrolname='street4'])[1]"
+input_country_addnewcontact: "(//input[@formcontrolname='country'])[1]"
+dd_country_addnewcontact: "//span[normalize-space()='{country}']"
+input_states_addnewcontact: "(//input[@formcontrolname='state'])[1]"
+input_disabled_states_addnewcontact: "(//input[@formcontrolname='state' and @disabled])[1]"
+dd_states_addnewcontact: "//span[normalize-space()='{states}']"
+input_town_addnewcontact: "(//input[@formcontrolname='city'])[1]"
+input_disabled_town_addnewcontact: "(//input[@formcontrolname='city' and @disabled])[1]"
+dd_town_addnewcontact: "//span[normalize-space()='{town}']"
+input_postcode_addnewcontact: "(//input[@formcontrolname='postCode'])[3]"
+input_disabled_postcode_addnewcontact: "(//input[@formcontrolname='postCode' and @disabled])[3]"
+input_countrycodemobile_addnewcontact: "//input[@formcontrolname='mobileNoCode']"
+input_mobileno_addnewcontact : "(//input[@formcontrolname='mobileNo'])[3]"
+input_officecountrycode_addnewcontact : "//input[@formcontrolname='officeCode']"
+input_officeno_addnewcontact: "(//input[@formcontrolname='officeNo'])[2]"
+input_housecountrycode_addnewcontact: "//input[@formcontrolname='houseNoCode']"
+input_houseno_addnewcontact: "(//input[@formcontrolname='houseNo'])[2]"
+input_email_addnewcontact : "//input[@formcontrolname='emailAddress']"
+button_add : "//button[normalize-space()='Add']"
+button_clear : "(//button[normalize-space()='Clear'])[2]"
+
+#Top Navigatio
+button_register: "//button[normalize-space()='Register']"
+button_clearTopNav: "(//button[normalize-space()='Clear'])[1]"
+button_cancel: "(//span[normalize-space()='Cancel'])[4]"
+button_ok: "(//span[normalize-space()='Ok'])[2]"
+button_okclear: "//span/span[normalize-space()='Ok']"
+
+
+# Medico Legal Case
+
+card_collapsemlc: "//details[not(@open) and @data-ondemand='medicoValidate']"
+card_expandmlc: "//details[@open and @data-ondemand='medicoValidate']"
+card_mlc: "//summary[normalize-space()='Medico Legal Case']/parent::details/parent::div"
+input_mlcno: "//input[@formcontrolname='mlcNo']"
+select_mlctype: "//select[@formcontrolname='typeOfMLC']"
+select_modofarival: "//select[@formcontrolname='modeofArrival']"
+input_mrninmlc: "(//input[@formcontrolname='mrnNo'])[4]"
+button_searchmrninmlc: "(//button[@id='search-btn'])[11]"
+input_mlcname: "//input[@formcontrolname='mlcname']"
+input_mlccountrycode: "//input[@formcontrolname='contactNoCode']"
+input_mlccontactno: "//input[@formcontrolname='contactNo']"
+textarea_mlcremark: "//textarea[@formcontrolname='mlcRemark']"
+
+#Corporate Details
+
+input_corporatename: "//input[@id='corporateName']"
+input_corporatecode: "//input[@formcontrolname='corporateCode']"
+textarea_corporateaddress: "//textarea[@formcontrolname='address']"
+input_creditlimitexceed: "//input[@formcontrolname='creditLimitExtened']"
+input_creditbalancelimit: "//input[@formcontrolname='creditLimitBalance']"
+input_corporateammount: "//input[@formcontrolname='amount']"
+input_corporaterefstaffno: "//input[@formcontrolname='refStaffNo']"
+input_corguarantor: "//input[@formcontrolname='coGuarantor']"
+button_addrowguaranteeletter: "(//button[normalize-space()='Add New Row'])[1]"
+input_glno: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[1]"
+input_glissuedate: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[2]"
+input_daysvalidfromissueddate: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[3]"
+input_gllimit: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[4]"
+input_validfordoctor: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[5]"
+input_glfrom: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[6]"
+input_glto: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[7]"
+input_glduration: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[8]"
+check_glapply: "(//th[normalize-space()='GL No.']/ancestor::table/tbody//input)[9]"
+button_addrowguaranteelettertopup: "(//button[normalize-space()='Add New Row'])[2]"
+button_savecorporate: "(//button[normalize-space()='Save'])[1]"
+button_closecorporate: "(//button[normalize-space()='Close'])[1]"
+
+#NewBorn popup
+
+button_nodatechangenewborn: "//div[contains(text(),' Date of Birth is today')]/parent::app-confirm-dialog//span/span[normalize-space()='No']"
+
+
+#Guardian
+
+card_collapseguardian: "//details[not(@open) and @data-ondemand='guardianContactValidate']"
+card_expandguardian: "//details[@open and @data-ondemand='guardianContactValidate']"
+check_sameasemergencydetails: "//input[@formcontrolname='sameAsEmergency']"
+input_guardianmrn: "(//input[@formcontrolname='mrnNo'])[3]"
+input_guardianname: "//input[@formcontrolname='guardianName']"
+check_tinnumberguardian: "//input[@formcontrolname='guardianTinNoCheckbox']"
+input_guardiantinnumber: "//input[@formcontrolname='tin']"
+input_guardianicno: "(//input[@formcontrolname='icNo'])[5]"
+input_guardianoldicnoorpassport: "(//input[@formcontrolname='oldIcPassport'])[5]"
+input_guardiannationality: "//input[@formcontrolname='guarNationality']"
+input_guardianemail: "(//input[@formcontrolname='email'])[2]"
+input_guardianstreet1: "//input[@formcontrolname='guarStr1']"
+input_guardianstreet2: "//input[@formcontrolname='guarStr2']"
+input_guardianstreet3: "//input[@formcontrolname='guarStr3']"
+input_guardianstreet4: "//input[@formcontrolname='guarStr4']"
+input_guardiancountry: "//input[@formcontrolname='guarCountry']"
+input_guardianstate: "//input[@formcontrolname='guarState']"
+input_guardiancity: "//input[@formcontrolname='guarCity']"
+input_guardianpostcode: "(//input[@formcontrolname='email'])[4]"
+input_guardiancountrycode: "//input[@formcontrolname='guarMobileCode']"
+input_guardianmobileno: "//input[@formcontrolname='guarMobileNo']"
+
+#Request For Admission
+
+label_requestforadmission: "(//label[normalize-space()='Request For Admission'])[1]"
+input_scheduleadmissionfromdate: "//input[@formcontrolname='rfaSelectionFromDate']"
+input_scheduleadmissiontodate: "//input[@formcontrolname='rfaSelectionToDate']"
+input_admittingdoctor: "//input[@formcontrolname='admittingDoctor']"
+input_admittingmrn: "//input[@formcontrolname='mrn']"
+input_admittingname: "(//input[@formcontrolname='name'])[2]"
+input_admittingrfaid: "//input[@formcontrolname='rfaId']"
+button_go: "//input[@formcontrolname='rfaId']/ancestor::div[@class='modal fade reqadmission-modal-lg in']//button[normalize-space()='Go']"
+chek_resultrfa: "//td[normalize-space()='{rfaID}']/parent::tr//input"
+button_admissionselect: "(//button[normalize-space()='Select'])[1]"
+
+
+#Header Navigation
+
+button_navigationedit: "//button[normalize-space()='Edit']"
+
+#Admission
+card_collapseadmission: //details[not(@open) and @data-ondemand='admValidate']
+card_expandadmission: //details[@open and @data-ondemand='admValidate']
+radio_transferpatient: //label[normalize-space()='Transfer Patient']/input[@formcontrolname='isTransferPatient']
+radio_admitpatient: //label[normalize-space()='Admit Patient']/input[@formcontrolname='isTransferPatient']
+input_admissiondatetime: //input[@formcontrolname='dateTimeofAdmission']
+input_roomboard: //input[@formcontrolname='roomOrBoard']
+check_wardandbed: (//td[normalize-space()='Vacant']//parent::tr//input)[1] 
+button_bedtransferlisting: //button[normalize-space()= 'Bed Transfer Listing']
+input_ward: //input[@formcontrolname='admWard']
+input_bedtype: //input[@formcontrolname='admBedType']
+button_bedtransfer: //button[normalize-space()='Bed Transfer Listing']
+button_canceladmission: //button[normalize-space()='Cancel Admission']
+
+popup_labelafterclickedit: //div[normalize-space()= 'Do you want to Save patient data?']
+
+header_popupcancelreason: //h1[normalize-space()='Cancel Reason Form']
+select_admissioncancelationreason: //h1[normalize-space()='Cancel Reason Form']/parent::app-confirm-dialog//select
+button_admissioncancelsave: //h1[normalize-space()='Cancel Reason Form']/parent::app-confirm-dialog//span/span[normalize-space()='Save']
+
+
+#Apponitment
+
+label_appoitnmentpopup: //div[normalize-space()='Patient Already has an appointment.']
+input_appointmentreference: //label[normalize-space()='Appt Ref No.']/parent::div//input[@name='q']
+input_appointmentname: //label[normalize-space()='Name']/parent::div//input[@formcontrolname='name']
+button_appointmentgo: (//button[normalize-space()='Go'])[2]
+check_appoitnmentresult: //td[normalize-space()='{apptRefNo}']/parent::tr//input
+button_appointmentselect: (//button[normalize-space()='Select'])[2]
+

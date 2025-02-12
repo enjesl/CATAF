@@ -1,0 +1,12 @@
+[
+    {
+      "__Comment": "RFA - To create Part 1 in RFA",
+      "mainnavgationname": "Front Office",
+      "subnavgationname": "Patient Registration",
+      "fromDate": "",
+      "toDate": "",
+      "mrnInputManually": true,
+      "cancelationReason": "Long Waiting Time"
+
+    }
+  ]

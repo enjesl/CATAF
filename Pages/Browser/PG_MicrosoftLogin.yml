@@ -1,0 +1,7 @@
+# PG_MicrosoftLogin.yml - Store locators
+label_signin: "//div[text()='Sign in']"
+input_email: "input[name='loginfmt']"
+button_next: "input[value='Next']"
+label_enterpassword: "//div[text()='Enter password']"
+input_password: "input[name='passwd']"
+button_signin: "input[value='Sign in']"

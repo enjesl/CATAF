@@ -1,0 +1,21 @@
+{
+  "environments": {
+    "dev": {
+      "username": "",
+      "password": ""
+    },
+    "staging": {
+      "username": "",
+      "password": "IT0712372386c#"
+    },
+    "prod": {
+      "username": "prodUser",
+      "password": "prodPassword"
+    }
+  },
+  "defaultEnvironment": "staging",
+  "locatorCheck": {
+    "defaultTimeout": 5000,
+    "retries": 3
+  }
+}
