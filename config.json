@@ -6,7 +6,7 @@
     },
     "staging": {
       "username": "",
-      "password": "IT0712372386c#"
+      "password": ""
     },
     "prod": {
       "username": "prodUser",
